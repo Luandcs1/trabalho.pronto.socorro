@@ -2,9 +2,7 @@
 
 ## Compilar
 
-```bash
-javac -d out src/entidades/Pessoa.java src/estatica/FilaEstatica.java src/estatica/FilaComPrioridade.java src/heap/FilaComPrioridadeHeap.java src/Main.java
-```
+javac -d src/entidades/Paciente.java src/heap/PriorityQueueHeap.java src/Main.java
 
 ## Executar
 
@@ -14,9 +12,7 @@ java -cp out Main
 
 ## Gerar Javadoc
 
-```bash
-javadoc -d doc -sourcepath src -subpackages estatica:heap:entidades
-```
+javadoc -d docs -sourcepath src entidades heap Main.java
 
 Abrir a documentação: `doc/index.html`
 
